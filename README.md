@@ -8,6 +8,6 @@
 ## Testing:
 These are two URLs to test it.
 - Import data from json file
-    - http://localhost/nn/book-shop/?import
+    - http://localhost/book-shop/?import
 - Search / listing
-  - http://localhost/nn/book-shop/?search
+  - http://localhost/book-shop/?search
