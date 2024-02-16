@@ -18,7 +18,7 @@ try {
         }
     } else {
         $search = new search();
-        $searchQuery = $_GET['search'] ?? '';
+        $searchQuery = isset($_GET['search']) ? $_GET['search'] : '';
         $search->showResults($searchQuery);
     }
 }catch (Exception $e) {

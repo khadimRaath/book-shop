@@ -22,7 +22,7 @@
 <body>
 <form method="get" action="">
     <label>Search from Sales:</label>
-    <input name="search" type="text" id="search" value="<?= $_GET['search'] ?? '' ?>" placeholder="Search for customer, product, price" width="200px">
+    <input name="search" type="text" id="search" value="<?= isset($_GET['search']) ? $_GET['search'] : '' ?>" placeholder="Search for customer, product, price" width="200px">
 </form>
 <table>
     <thead>
